@@ -169,9 +169,6 @@
 .main_best .swiper-slide:hover{ background-color: #f1f1f1; }
 .main_best .swiper-scrollbar{ height: 1px; border-radius: 0; background: rgba(0,0,0,1); bottom: 30px; }
 .main_best .swiper-scrollbar-drag{ height: 5px; margin-top: -2px; border-radius: 0; background: rgba(0,0,0,1); }
-.main_best .swiper-pagination{ bottom: 0;}
-.main_best .swiper-pagination-bullet{ background-color: transparent; border: 1px solid #000; opacity: 1; }
-.main_best .swiper-pagination-bullet-active{ background-color: #000; }
 
 /*main_col2*/
 .main_col2{ width: 100%; padding: 100px 0;}

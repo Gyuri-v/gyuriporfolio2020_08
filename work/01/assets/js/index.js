@@ -50,13 +50,17 @@ $(document).ready(function(){
     
     //main_best - slide
     var swiper = new Swiper('.main_best .swiper-container', {
-      slidesPerView: 2,
+      slidesPerView: 4,
       spaceBetween: 30,
-      slidesPerGroup: 2,
+      slidesPerGroup: 4,
       scrollbar: {
         el: '.main_best .swiper-scrollbar',
       },
       breakpoints: {
+        480: {
+          slidesPerView: 2,
+          slidesPerGroup: 2,
+        },
         768: {
           slidesPerView: 3,
           slidesPerGroup: 3,
